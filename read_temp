@@ -1,0 +1,1 @@
+cat /sys/bus/w1/devices/28-00000461f3dd/w1_slave
