@@ -1,0 +1,20 @@
+#install sudo & adduser so we can add a user later
+pacman -S sudo
+pacman -S adduser
+
+#update system
+sudo pacman -Syu
+
+pacman -S git
+pacman -S ca-certificates
+pacman -S binutils
+
+#update firmware to fix wlan bug
+#wget https://raw.github.com/Hexxeh/rpi-update/master/rpi-update -O /usr/bin/rpi-update
+#chmod +x /usr/bin/rpi-update
+#rpi-update
+
+pacman -S make
+pacman -S gcc
+pacman -S nodejs
+pacman -S ruby

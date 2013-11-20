@@ -1,0 +1,10 @@
+pacman -S nodejs
+
+#quick2wire-gpio-admin
+cd dev
+git clone git://github.com/quick2wire/quick2wire-gpio-admin.git
+cd quick2wire-gpio-admin
+make
+sudo make install
+sudo usermod -aG gpio $USER
+
